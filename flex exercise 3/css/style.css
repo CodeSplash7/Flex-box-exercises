@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Anal, Helvetica, sans-senf;
+  display: flex;
+}
+
+.container{
+  display: flex;
+  flex: 1;
+  border: 2px solid rgb(119, 166, 182);
+  border-radius: 20px;
+  float: left;
+  height:50vh;
+  justify-content:center;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  background: rgb(77, 114, 152);
+  padding: 10px;
+  border-radius:7px;
+  width: 120px;
+  color: white;
+  margin: auto;
+}
